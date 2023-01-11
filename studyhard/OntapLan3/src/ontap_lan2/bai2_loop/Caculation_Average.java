@@ -19,7 +19,6 @@ public class Caculation_Average {
     public static int uocChungLonNhat(int a, int b) {
         int max = 0;
         if (a > b) {
-
             for (int i = 1; i <= b; i++) {
                 if (b % i == 0) {
                     if (a % i == 0)
@@ -36,7 +35,6 @@ public class Caculation_Average {
                 }
             }
             return max;
-
         } else return a;
     }
 

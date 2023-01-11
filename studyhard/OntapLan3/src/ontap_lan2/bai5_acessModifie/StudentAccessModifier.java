@@ -48,11 +48,6 @@ public class StudentAccessModifier {
                 '}';
     }
 
-    public static final String CHECK = "^[C][0-9]{2}[2]\\d{1}(G1)$";
-
-    public static boolean isValidateClass(String str) {
-        return str.matches(CHECK);
-    }
 }
 
 

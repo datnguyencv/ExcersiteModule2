@@ -16,7 +16,6 @@ public class CaculationNomarl {
                 "4. Chia");
         int choise;
         choise= scanner.nextInt();
-
         switch (choise){
             case 1:
                 System.out.println("Kết quả : "+(numFirst+numSecond));
@@ -32,9 +31,6 @@ public class CaculationNomarl {
                 break;
             default:
                 System.out.println("Cảm ơn bạn đã sử dụng dịch vụ");
-
         }
     }
-
-
 }

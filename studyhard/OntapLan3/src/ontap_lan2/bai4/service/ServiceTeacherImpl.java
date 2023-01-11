@@ -1,6 +1,6 @@
 package ontap_lan2.bai4.service;
 
-import Student.ontap_lan2.bai4.model.Teacher;
+import ontap_lan2.bai4.model.Teacher;
 
 import java.util.ArrayList;
 import java.util.List;

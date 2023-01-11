@@ -1,9 +1,9 @@
 package ontap_lan2.bai4.controller;
 
-import Student.ontap_lan2.bai4.model.Teacher;
-import Student.ontap_lan2.bai4.service.IServiceTeach;
-import Student.ontap_lan2.bai4.service.NumFormatException;
-import Student.ontap_lan2.bai4.service.ServiceTeacherImpl;
+import ontap_lan2.bai4.model.Teacher;
+import ontap_lan2.bai4.service.IServiceTeach;
+import ontap_lan2.bai4.service.NumFormatException;
+import ontap_lan2.bai4.service.ServiceTeacherImpl;
 
 import java.util.Scanner;
 

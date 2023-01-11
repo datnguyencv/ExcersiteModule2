@@ -28,6 +28,4 @@ public class Bai2_Avegare {
         }
         System.out.println("Trung Bình công vị trí lẻ "+sum/count);
     }
-
-
 }
