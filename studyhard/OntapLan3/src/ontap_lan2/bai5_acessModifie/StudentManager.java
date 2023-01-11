@@ -12,6 +12,9 @@ public class StudentManager {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        do {
+
+
         System.out.println("Nhập vào thông tin Học viên ");
         System.out.println("Họ và tên  ");
         String name = scanner.nextLine();
@@ -24,5 +27,6 @@ public class StudentManager {
         } while (!isValidateClass(nameClass));
         studentAccessModifier.add(new StudentAccessModifier(name,yearOld,nameClass));
         System.out.println(studentAccessModifier);
+        }while (true);
     }
 }

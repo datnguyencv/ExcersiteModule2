@@ -3,7 +3,7 @@ package ontap_lan2.bai5_acessModifie;
 public class StudentAccessModifier {
     private String name;
     private int yearOld;
-    private String className;
+    static private String className;
 
     public StudentAccessModifier() {
     }
